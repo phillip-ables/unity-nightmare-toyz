@@ -4,7 +4,7 @@
 PlayerSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 14
-  productGUID: 00000000000000000000000000000000
+  productGUID: b3d77cfe33034c34da8f0ea4817f991b
   AndroidProfiler: 0
   AndroidFilterTouchesWhenObscured: 0
   defaultScreenOrientation: 3
@@ -748,7 +748,7 @@ PlayerSettings:
   facebookSdkVersion: 7.9.1
   apiCompatibilityLevel: 2
   cloudProjectId: 4c6eae25-91e9-4f8a-88fa-4081d6f500d8
-  projectName: New Unity Project (1)
+  projectName: Toys-Toys-TakeSoul
   organizationId: phillables
   cloudEnabled: 0
   enableNativePlatformBackendsForNewInputSystem: 0
