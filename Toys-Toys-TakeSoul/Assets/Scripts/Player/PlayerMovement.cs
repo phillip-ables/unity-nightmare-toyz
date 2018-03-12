@@ -24,6 +24,10 @@ public class PlayerMovement : MonoBehaviour
         //input from horizontal and vertical axis, the raw input not the standard input, minus one zero or one -> snap to full speed
         //an axie is actually input
         float v = Input.GetAxisRaw("Vertical");
+        // fixed update so they are called ever rigid body movement
+        Move(h, v);
+        Turning();
+        Animating(h, v);
     }
     //split up the operations of this player movement script
     //put them in seperate functions to make them moduler
