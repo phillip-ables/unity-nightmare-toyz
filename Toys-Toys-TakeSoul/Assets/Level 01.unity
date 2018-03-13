@@ -785,6 +785,29 @@ Transform:
   m_PrefabParentObject: {fileID: 4539577090212012, guid: e1e113729d4029f45b7c70c89aa599ce,
     type: 2}
   m_PrefabInternal: {fileID: 1385103324}
+--- !u!1 &1391478161 stripped
+GameObject:
+  m_PrefabParentObject: {fileID: 1457428498960390, guid: e1e113729d4029f45b7c70c89aa599ce,
+    type: 2}
+  m_PrefabInternal: {fileID: 1385103324}
+--- !u!114 &1391478162
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1391478161}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 544f2064df03e95419b4a5147c506b08, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  startingHealth: 100
+  currentHealth: 0
+  healthSlider: {fileID: 0}
+  damageImage: {fileID: 0}
+  deathClip: {fileID: 0}
+  flashSpeed: 5
+  flashColour: {r: 1, g: 0, b: 0, a: 0.1}
 --- !u!1001 &1513796032
 Prefab:
   m_ObjectHideFlags: 0

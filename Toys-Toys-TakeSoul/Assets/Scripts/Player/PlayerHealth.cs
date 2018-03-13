@@ -47,7 +47,7 @@ public class PlayerHealth : MonoBehaviour
     }
 
 
-    public void TakeDamage (int amount)
+    public void TakeDamage (int amount)  // other scripts and components can call this function, it is not called in this script, script interactivity
     {
         damaged = true;
 
